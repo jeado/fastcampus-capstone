@@ -1,0 +1,29 @@
+{
+    "development": {
+        "db" : {
+            "database" : "sqlite",
+            "username" : "",
+            "config" : {
+                "dialect" : "sqlite",
+                "storage" : "./db.development.sqlite"
+
+            }
+        }
+    },
+    "production" : {
+        "db" : {
+            "username": "xxx",
+            "password": "xxx",
+            "database": "xxx",
+            "config" : {
+                "host": "xxx",
+                "dialect": "postgres",
+                "port": 5432,
+                "dialectOptions":{
+                    "native": true,
+                    "ssl": true
+                }
+            }
+        }
+    }
+}
